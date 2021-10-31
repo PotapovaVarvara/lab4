@@ -48,4 +48,6 @@ for i in range(len(arr)):
         arr[i][j] = random.randint(0, 5)
 
 print_matrix(arr)
+
+print("Визначник матриці: ")
 print(getDet(arr))
